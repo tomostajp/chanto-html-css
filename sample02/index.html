@@ -5,18 +5,27 @@
     <title>ボタン</title>
     <style>
         button {
-            border: 1px solid #2f91bc;
             border-radius: 3px;
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
+            margin: 0;
+            padding: 10px 50px;
+        }
 
+        button.default {
+            border: 1px solid #2f91bc;
             background: linear-gradient(90deg, #2f91bc 18.86%, #23a2a2 86.29%);
             color: rgba(255, 255, 255, .8);
+        }
 
-            margin: 0;
-            padding: 10px 30px;
+        button.primary {
+            border: 1px solid #a08017;
+            background: linear-gradient(90deg, #a08017 18.86%, #ceac20 86.29%);
+            color: rgba(255, 255, 255, .8);
         }
     </style>
 </head>
 <body>
-    <button type="button">お問い合わせ</button>
+    <button type="button" class="default">お問い合わせ</button>
+    <button type="button" class="primary">お申し込み</button>
 </body>
 </html>
