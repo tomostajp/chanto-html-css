@@ -5,14 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexbox</title>
+
+    <link rel="stylesheet" href="destyle.css">
+    <style>
+        body {
+            margin: 30px;
+        }
+        .thumbnail {
+            border-radius: 15px;
+            margin-bottom: 10px;
+            display: block;
+        }
+        .face {
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .information {
+            display: flex;
+            align-items: start;
+        }
+        .information h2 {
+            font-weight: bold;
+            margin-bottom: .5em;
+        }
+        .information p {
+            font-size: .8em;
+            color: #606060;
+        }
+    </style>
 </head>
 <body>
     <div class="card">
-        <img src="https://picsum.photos/300/200" alt="">
-        <img src="https://picsum.photos/id/823/35/35" alt="">
-        <h2>Non mollit ad minim labore et.</h2>
-        <p>YouTube</p>
-        <p>1.2万回視聴・19時間前</p>
+        <img class="thumbnail" src="https://picsum.photos/300/200" alt="">
+
+        <div class="information">
+            <img class="face" src="https://picsum.photos/id/823/35/35" alt="">
+
+            <div class="information_body">
+                <h2>Non mollit ad minim labore et.</h2>
+                <p>YouTube</p>
+                <p>1.2万回視聴・19時間前</p>    
+            </div>
+        </div>
     </div>
 </body>
 </html>
