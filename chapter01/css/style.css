@@ -1,8 +1,13 @@
 @import url(sanitize.css);
 
 h1 {
+    background-color: #ffcccc;
     font-size: 24px;
     margin: 0;
+}
+label {
+    display: block;
+    margin-bottom: .5em;
 }
 div.content {
     width: 600px;
@@ -15,6 +20,7 @@ input {
     border-bottom: 1px solid #d1d1d1;
     font-size: 16px;
     padding: 8px;
+    width: 100%;
 }
 button {
     width: 100%;
