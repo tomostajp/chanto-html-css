@@ -51,3 +51,12 @@ header h1 {
 .songs {
     clear: both;
 }
+
+a {
+    color: #666;
+}
+
+.songs ol {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
