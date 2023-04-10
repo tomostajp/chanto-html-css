@@ -30,3 +30,20 @@ header h1 {
     float: left;
     margin: 0 10px 10px 0;
 }
+
+.type {
+    background-color: #e35a4d;
+    padding: 2px 3px;
+    color: #fff;
+    font-size: .6em;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+}
+
+.information h1 {
+    font-size: 18px;
+    margin: 0 10px 0 0;
+}
