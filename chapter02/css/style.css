@@ -89,3 +89,11 @@ footer {
     font-size: .8em;
     padding: 5px;
 }
+
+@media screen and (max-width: 600px) {
+    .description img {
+        float: none;
+        margin: 0 auto;
+        display: block;
+    }
+}
