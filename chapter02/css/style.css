@@ -83,3 +83,9 @@ section {
     padding: 20px;
     background-color: #fff;
 }
+
+footer {
+    text-align: center;
+    font-size: .8em;
+    padding: 5px;
+}
