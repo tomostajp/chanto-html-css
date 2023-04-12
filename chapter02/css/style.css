@@ -31,6 +31,10 @@ header h1 {
 .description img {
     float: left;
     margin: 0 10px 10px 0;
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0;
 }
 
 .type {
@@ -88,6 +92,10 @@ footer {
     text-align: center;
     font-size: .8em;
     padding: 5px;
+}
+
+.description img:hover {
+    opacity: .5;
 }
 
 @media screen and (max-width: 600px) {
