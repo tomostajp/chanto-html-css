@@ -7,13 +7,35 @@
     <title>CSSの単位</title>
     <style>
         .box1 {
-            width: 1cm;
-            height: 1cm;
+            width: 300px;
+            height: 100px;
             background-color: red;
+        }
+        .box2 {
+            width: 50%;
+            height: 80px;
+            background-color: #fcc;
+        }
+
+        html {
+            font-size: 18px;
+        }
+        body {
+            font-size: 1.5em;
+        }
+        h1 {
+            font-size: 1.5rem;
+            border-inline-end: 3px solid #f33;
+            writing-mode: vertical-rl;
         }
     </style>
 </head>
 <body>
-    <div class="box1"></div>
+    <div class="box1">
+        <div class="box2"></div>
+    </div>
+
+    <h1>いのはにほへと</h1>
+    <p>本文</p>
 </body>
 </html>
