@@ -10,7 +10,26 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="p-5" style="background-color: #ccc">ご利用アンケート</h1>
+        <div class="row mt-5">
+            <div class="col-sm-8">
+                <h1 class="bg-light text-info">ご利用アンケート</h1>
+            </div>
+            <div class="col-sm-4 text-end">
+                <a href="/">ホームへ戻る</a>
+            </div>
+        </div>
+    </div>
+
+    <hr class="bg-info">
+
+    <div class="container">
+        <p>フォームにご記入ください</p>
+        <form action="" method="post">
+            <div class="mb-3">
+                <label for="myname" class="form-label">お名前</label>
+                <input type="text" class="form-control" name="myname" id="myname" placeholder="山田　太郎">
+            </div>
+        </form>
     </div>
 </body>
 </html>
